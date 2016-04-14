@@ -22,5 +22,7 @@
 }
 
 #staggered-list > li {
-	opacity : 0;		
+	opacity : 0;
+	display: block;
+	width: 400px;		
 }
