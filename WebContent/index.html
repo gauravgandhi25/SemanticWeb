@@ -17,40 +17,51 @@
 	media="screen,projection" />
 </head>
 <body>
-	<nav role="navigation" class="z-depth-3">
-		<div class="nav-wrapper container">
-			<a id="logo-container" href="#" class="brand-logo">Veterans
-				Quality of Care</a>
+	<header>
+		<nav role="navigation" class="z-depth-3">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="#" class="brand-logo">Veterans
+					Quality of Care</a>
+			</div>
+		</nav>
+		<div class="section no-pad-bot" id="index-banner">
+			<div class="container">
+				<h5>Medical Center Staffing and Expenditure Distribution</h5>
+			</div>
 		</div>
-	</nav>
-	<div class="section no-pad-bot" id="index-banner">
-		<div class="container">
-			<h5>Medical Center Staffing and Expenditure Distribution</h5>
-		</div>
-	</div>
-
+	</header>
+	<main class="page-main">
 	<div class="container" style="padding-left: 30px;">
 		<ul id="staggered-list">
 			<li class="hvr-shadow-radial"><a href="views/expenditure.html">
 					<h5>Expenditure Details</h5>
 			</a>
 				<p>State wise total expenditure and expenditure ratio</p></li>
-			<li class="hvr-shadow-radial"><a>
+			<li class="hvr-shadow-radial"><a href="views/stateWise.html">
 					<h5>State wise Visualization</h5>
 			</a>
 				<p>State wise veteran population and staffing distribution</p></li>
 
-			<li class="hvr-shadow-radial"><a>
+			<li class="hvr-shadow-radial"><a href="views/compensationDetails.html">
 					<h5>Staffing & Compensation Details</h5>
 			</a>
 				<p>Details about staffing and compensation, pension</p></li>
 
-			<li class="hvr-shadow-radial"><a><h5>Staffing & Patient
+			<li class="hvr-shadow-radial"><a href="views/patientDetails.html"><h5>Staffing & Patient
 						Details</h5></a>
 				<p>Details about staffing and unique patients</p></li>
 		</ul>
 	</div>
-
+	</main>
+	<footer class="page-footer">
+		<div class="footer-copyright">
+			<div class="container">
+				© TEAM Web Enthusiasts - <span style="margin-left: 30px;"><b>Gaurav
+						Gandhi</b> gmg140230 </span><b><span style="margin-left: 50px;">Aditya
+						Borde</b> asb140930</span>
+			</div>
+		</div>
+	</footer>
 	<!--  Scripts-->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>

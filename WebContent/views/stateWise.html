@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-<title>Expenditure Details</title>
+<title>State Wise Visualization</title>
 
 <!-- CSS  -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -16,6 +16,7 @@
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 
 <script type="text/javascript">
+
 	google.load('visualization', '1', {
 		'packages' : [ 'geochart', 'corechart' ]
 	});
@@ -37,36 +38,24 @@
 	<div class="section no-pad-bot" id="index-banner">
 		<div class="container"></div>
 	</div>
-	
-	<main>
+
 	<div class="container">
-		<h5>Expenditure Details</h5>
+		<h5>State Wise Visualization</h5>
 		<div class="input-field col s12">
-			<select id="expenditureSelect">
+			<select id="statewiseSelect">
 				<option value="" disabled selected>Choose your option</option>
-				<option value="1">State wise expenditure contribution</option>
-				<option value="2">Total state expenditure</option>
+				<option value="1">State Wise Veteran Population</option>
+				<option value="2">State Wise Medical Staff Categories</option>
 			</select>
 		</div>
 
 
 		<div id='map_canvas'></div>
-	</main>
-	
-	<footer class="page-footer">
-		<div class="footer-copyright">
-			<div class="container">
-				© TEAM Web Enthusiasts - <span style="margin-left: 30px;"><b>Gaurav
-						Gandhi</b> gmg140230 </span><b><span style="margin-left: 50px;">Aditya
-						Borde</b> asb140930</span>
-			</div>
-		</div>
-	</footer>
-	
-	<!--  Scripts-->
-	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="../js/materialize.js"></script>
-	<script src="../js/init.js"></script>
-	<script type="text/javascript" src="../js/app.js"></script>
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="../js/materialize.js"></script>
+		<script src="../js/init.js"></script>
+		<script type="text/javascript" src="../js/app.js"></script>
 </body>
 </html>

@@ -5,24 +5,34 @@
  *
  * Made By MaterializeCSS.com
  */
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
 
 .icon-block {
-  padding: 0 15px;
+	padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
 
-#staggered-list > li > p {
-	text-indent: 25px;	
+#staggered-list>li>p {
+	text-indent: 25px;
 }
 
-#staggered-list{
+#staggered-list {
 	margin-top: 50px;
 }
 
-#staggered-list > li {
-	opacity : 0;
+#staggered-list>li {
+	opacity: 0;
 	display: block;
-	width: 400px;		
+	width: 400px;
 }
